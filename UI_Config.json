@@ -1,0 +1,168 @@
+{
+  "output_file": "Settings/settings.json",
+  "Command0": {
+    "type": "textbox",
+    "value": "!exile",
+    "label": "Strip the user of all currency",
+    "tooltip": "The command that will be responded to.",
+    "group": "Exile"
+  },
+  "Permission0": {
+    "type": "dropdown",
+    "value": "Everyone",
+    "items": [
+      "Everyone",
+      "Regular",
+      "VIP+",
+      "VIP Exclusive",
+      "Subscriber",
+      "GameWisp Subscriber",
+      "User_Specific",
+      "Min_Rank",
+      "Min_Points",
+      "Min_Hours",
+      "Moderator",
+      "Editor",
+      "Caster"
+    ],
+    "label": "Permission",
+    "tooltip": "Who is able to use the command",
+    "group": "Exile"
+  },
+  "Info0": {
+    "type": "textbox",
+    "value": "",
+    "label": "Info",
+    "tooltip": "This field should only be filled when using the user_specific permission.",
+    "group": "Exile"
+  },
+  "Cooldown0": {
+    "type": "slider",
+    "value": 4,
+    "min": 0,
+    "max": 100,
+    "ticks": 1,
+    "label": "Cooldown (seconds)",
+    "tooltip": "How long the command should go on cooldown for",
+    "group": "Exile"
+  },
+  "Cost0": {
+    "type": "textbox",
+    "value": 123,
+    "label": "Cost (Dicecoins)",
+    "tooltip": "How much it costs to call this function",
+    "group": "Exile"
+  },
+
+
+
+  "Command1": {
+    "type": "textbox",
+    "value": "!fine",
+    "label": "Fine the user a certain amount with the syntax\n '!fine $point_val' where $point_val is the fine",
+    "tooltip": "The command that will be responded to.",
+    "group": "Fine"
+  },
+  "Permission1": {
+    "type": "dropdown",
+    "value": "Everyone",
+    "items": [
+      "Everyone",
+      "Regular",
+      "VIP+",
+      "VIP Exclusive",
+      "Subscriber",
+      "GameWisp Subscriber",
+      "User_Specific",
+      "Min_Rank",
+      "Min_Points",
+      "Min_Hours",
+      "Moderator",
+      "Editor",
+      "Caster"
+    ],
+    "label": "Permission",
+    "tooltip": "Who is able to use the command",
+    "group": "Fine"
+  },
+  "Info1": {
+    "type": "textbox",
+    "value": "",
+    "label": "Info",
+    "tooltip": "This field should only be filled when using the user_specific permission.",
+    "group": "Fine"
+  },
+  "Cooldown1": {
+    "type": "slider",
+    "value": 4,
+    "min": 0,
+    "max": 100,
+    "ticks": 1,
+    "label": "Cooldown (seconds)",
+    "tooltip": "How long the command should go on cooldown for",
+    "group": "Fine"
+  },
+  "Cost1": {
+    "type": "textbox",
+    "value": 5,
+    "label": "Cost (Dicecoins)",
+    "tooltip": "How much it costs to call this function",
+    "group": "Fine"
+  },
+
+
+
+  "Command2": {
+    "type": "textbox",
+    "value": "!verify",
+    "label": "Verifies the user read the rules and gives them a\nDicecoin",
+    "tooltip": "The command that will be responded to.",
+    "group": "Verify"
+  },
+  "Permission2": {
+    "type": "dropdown",
+    "value": "Everyone",
+    "items": [
+      "Everyone",
+      "Regular",
+      "VIP+",
+      "VIP Exclusive",
+      "Subscriber",
+      "GameWisp Subscriber",
+      "User_Specific",
+      "Min_Rank",
+      "Min_Points",
+      "Min_Hours",
+      "Moderator",
+      "Editor",
+      "Caster"
+    ],
+    "label": "Permission",
+    "tooltip": "Who is able to use the command",
+    "group": "Verify"
+  },
+  "Info2": {
+    "type": "textbox",
+    "value": "",
+    "label": "Info",
+    "tooltip": "This field should only be filled when using the user_specific permission.",
+    "group": "Verify"
+  },
+  "Cooldown2": {
+    "type": "slider",
+    "value": 4,
+    "min": 1,
+    "max": 100,
+    "ticks": 1,
+    "label": "Cooldown (seconds)",
+    "tooltip": "How long the command should go on cooldown for",
+    "group": "Verify"
+  },
+  "Cost2": {
+    "type": "textbox",
+    "value": 0,
+    "label": "Cost (Dicecoins)",
+    "tooltip": "How much it costs to call this function",
+    "group": "Verify"
+  }
+}

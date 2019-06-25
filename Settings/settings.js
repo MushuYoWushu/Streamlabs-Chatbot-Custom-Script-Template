@@ -1,0 +1,1 @@
+﻿var settings = {"Command2": "!verify", "Permission2": "Everyone", "Info0": "", "Info1": "", "Permission0": "Moderator", "Info2": "", "Cost2": "0", "Cost0": "0", "Command0": "!exile", "Cost1": "0", "Permission1": "Moderator", "Cooldown1": 10.0, "Cooldown0": 10, "Cooldown2": 10.0, "Command1": "!fine"};
